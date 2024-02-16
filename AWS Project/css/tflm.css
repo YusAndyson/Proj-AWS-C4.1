@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+ul {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(236, 184, 41);
+    color: white;
+}
+
+/* content 1 */
+.content1 {
+    display: flex;
+    /* margin-top: 50px; */
+}
+
+.content1 .tflm {
+    padding-top: 135px;
+}
+
+.tflm {
+    font-family: 'Gloock', serif;
+    margin-top: 20px;
+
+}
+
+.tflm .fabrikasi {
+    color: gray;
+}
+
+.tflm .logam {
+    color: gray;
+}
+
+.tflm .manufaktur {
+    color: red;
+}
+
+.img-tflm {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+/* content 2 */
+.content2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+}
+
+.partners img {
+    margin-right: 20px;
+}
+
+/* content 3 */
+.card {
+    width: 350px; height: 225px;
+    background: rgb(0, 87, 128);
+    position: relative;
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0.123);
+}
+
+.card img {
+    position: absolute;
+    border-radius: 10px;
+    background-size: cover;
+    width: 350px; height: 255px;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    padding: 0.4em 1.5em;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transform: scale(0.9);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.144);
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.content p {
+    font-size: 0.8em;
+}
+
+.card:hover .content {
+    height: 150px;
+}
+
+.up {
+    font-family: 'Oswald', sans-serif; 
+    color: red;
+}
+
+/* footer */
+.footer p {
+    margin-bottom: 0;
+    color: rgb(192, 192, 192);
+}
+
+.footer a {
+    text-decoration: none;
+}

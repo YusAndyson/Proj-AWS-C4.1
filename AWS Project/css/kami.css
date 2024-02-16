@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+ul {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(236, 184, 41);
+    color: white;
+}
+
+/* content 1 */
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.origin {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.visi-misi {
+    display: flex;
+}
+
+.visi{
+    background-color: #2e4053;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.visi p {
+    color: white;
+}
+
+.misi {
+    background-color: rgb(236, 184, 41);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.misi p {
+    color: white;
+}
+
+/* content 2 */
+.tittle {
+    justify-content: center;
+}
+
+.tittle .tittle-text h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittle .tittle-text h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.content2 {
+    display: flex;
+}
+
+.content2-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 28px;
+}
+
+.content2-text p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittle {
+    display: flex;
+}
+
+.tittle-text {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.anggota h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+.container-team {
+    padding-left: 102px;
+    padding-right: 102px;
+    height: 100vh;
+}
+
+.my-bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+}
+
+.introduction {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: fadeRight 2s;
+}
+
+.profile {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 3s;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: black;
+    transition: all 0.35s;
+    cursor: pointer;
+}
+
+.description {
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+    white-space: wrap;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    transition: all 0.35s;
+}
+
+.button {
+    width: 102px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0f172a;
+    text-align: center;
+    padding: 12px 8px;
+    border-radius: 8px;
+    background-color: #f3f2c9;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.title:hover {
+    color: #475569;
+    box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.233);
+}
+
+.button:hover {
+    color: #475569;
+    box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.233);
+}
+
+.my-profile {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 250px;
+    border-color: #F3F2C9; 
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;  
+}
+
+.my-profile img {
+    margin-top: -60px;
+    margin-right: -20px;
+    width: 400px;
+    height: 400px;
+    transition: all 0,5s;
+}
+
+.my-profile img:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    animation: fadeIn 2s;
+}
+
+.header a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    transition:  all 0.35s;
+}
+
+
+.header a:hover, .footer a:hover {
+    color: #475569;
+    cursor: pointer;
+}
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        margin-right: -200px;
+    }
+
+    to {
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* footer */
+.footer p {
+    margin-bottom: 0;
+    color: rgb(192, 192, 192);
+}
+
+.footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+ul {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.nav .nav-item .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(236, 184, 41);
+    color: white;
+}
+
+.card-tittle {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.card-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* footer */
+.footer p {
+    margin-bottom: 0;
+    color: rgb(192, 192, 192);
+}
+
+.footer a {
+    text-decoration: none;
+}
